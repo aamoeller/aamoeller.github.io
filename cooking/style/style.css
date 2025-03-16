@@ -1,0 +1,156 @@
+body {
+  background-color: #1b3861;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 0px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+h4 {
+  margin: 0px;
+  font-size: 40px;
+}
+
+p {
+  font-size: 14pt;
+}
+
+.nav-li {
+  border: 5px solid #1b3861;
+  background-color: rgb(151, 190, 221);
+  font-size: 14pt;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+#nav-ul {
+  display: flex;
+  list-style: none;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.background,
+.image-container {
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(190, 218, 226);
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#biking {
+  width: 30%;
+  height: fit-content;
+  margin: 40px;
+}
+
+section {
+  display: flex;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.image-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.image-stack img {
+  max-width: 100%;
+  height: fit-content;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.image-side-by-side {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  margin-left: 0px;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.image-side-by-side img {
+  max-width: 45%;
+  height: fit-content;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+dl {
+  font-size: 14pt;
+}
+
+dt {
+  font-weight: bold;
+}
+
+article,
+#crochet-title {
+  margin: 40px;
+}
+
+#salmon {
+  width: 50% !important;
+  height: auto;
+  margin-left: 100px;
+  border-radius: 8px;
+}
+
+.knitting-progress {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  border-radius: 8px;
+  width: 70%;
+}
+
+.knitting-progress img {
+  width: 45%;
+  height: fit-content;
+  margin: 10px;
+  gap: 20px;
+  border-radius: 8px;
+}
+
+.knitting-captions {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+
+.knitting-captions p {
+  margin-left: 65px;
+  margin-right: 65px;
+  font-size: 13pt;
+  text-align: center;
+  font-family: Trebuchet MS;
+}
